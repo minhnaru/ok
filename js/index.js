@@ -29,7 +29,7 @@ var toolTip = d3.select('body')
 	.style('z-index', 1000);
 
 
-d3.json('https://raw.githubusercontent.com/ameliapower/d3BubbleMap/master/builds/development/js/json/poverty/us.json', function(error, usa){
+d3.json('https://raw.githubusercontent.com/minhnaru/ok/master/us.json', function(error, usa){
 	if (error) return console.log(error);
 
 	//build the main land area
